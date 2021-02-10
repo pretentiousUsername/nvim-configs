@@ -20,6 +20,10 @@ vmap <C-C> "+y
 
 call plug#begin()
 
+" In order to install packages from Plug, type ":PlugInstall" when you
+" start up nvim
+
+Plug 'JuliaEditorSupport/julia-vim'
 
 map <F2> :w
 

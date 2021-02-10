@@ -7,3 +7,14 @@ plugins, syntax files, and more, I can easily keep everything in a git
 repo.
 
 [nvim]: https://neovim.io/
+
+**Syntax for:**
+
+* Markdown
+
+* LaTeX
+
+* Julia
+
+* Python
+
