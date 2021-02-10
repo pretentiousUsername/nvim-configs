@@ -23,7 +23,8 @@ call plug#begin()
 " In order to install packages from Plug, type ":PlugInstall" when you
 " start up nvim
 
-Plug 'JuliaEditorSupport/julia-vim'
+" Plug 'JuliaEditorSupport/julia-vim'
+
 
 map <F2> :w
 
@@ -35,22 +36,6 @@ syntax on
 set nocompatible 
 
 "inoremap <Space><Space> <Esc>/<Enter>"_c4l
-
-"------------------
-"LaTeX Keyshortcuts
-"------------------
-"autocmd FileType tex ;i \textit{}<Space><++>FtT>i
-"autocmd FileType tex ;b \textbf{}<Space><++>FfT>i
-"autocmd FileType tex ;h1 \section{}<Space><++>FnT>i
-"autocmd FileType tex ;h2 \subsection{}<Space><++>FnT>i
-"autocmd FileType tex ;h3 \subsubsection{}<Space><++>FnT>i
-"autocmd FileType tex ;h4 \subsubsubsection{}<Space><++>FnT>i
-"autocmd FileType tex ;h5 \paragraph{}<Space><++>FhT>i
-"autocmd FileType tex ;h6 \subparagraph{}<Space><++>FhT>i
-"autocmd FileType tex ;eq \begin{equation}<Enter><++><ter>\end{equation}<Enter><++>
-"autocmd FileType tex ;ineq $$<Space><++>
-"autocmd FileType tex ;hrule \begin{center}<Enter>\noindent\rule{\linewidth}{0.5pt}<Enter>\end{center}<Enter><++>
-
 
 " Use this for the package manager
 execute pathogen#infect()
